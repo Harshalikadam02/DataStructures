@@ -1,0 +1,21 @@
+class Solution(object):
+    def isMonotonic(self, array):
+        n = len(array)
+        #to check the condition where the array is empty its monotonic
+        if n == 0: return True
+        first = array[0]
+        last = array[n-1]
+        if first>last:
+            #if thats the case then its monotnic decreasing checking the false condition
+            for i in range(n-1):
+                if array[i] < array[i+1]: return False 
+        elif first == last:
+            #in that case we would want all the elements to be equal checking false condition
+            for i in range(n-1):
+                if array[i] != array[i+1]: return False
+        else:
+            #check the condition for monotonic increasing first<last
+            for i in range(n-1):
+                if array[i] > array[i+1]: return False
+        return True
+        

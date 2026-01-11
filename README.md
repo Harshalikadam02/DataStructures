@@ -81,3 +81,9 @@ If you'd like, I can also:
 - scaffold example solutions and tests
 
 Good luck on your DSA journey — consistency beats intensity. Keep solving!
+
+---
+
+## Last Updated
+
+- **Date:** 2026-01-11 — minor README edits and pushed recent changes.
