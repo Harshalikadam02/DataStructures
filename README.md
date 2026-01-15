@@ -64,6 +64,16 @@ DSA improves how you reason about problems, design efficient solutions, and writ
 - Keep each solution small, with a short comment describing the approach and complexity.
 - Add small README notes for larger modules or projects.
 
+## Current Solutions
+
+### Arrays
+- 977 — Squares of a Sorted Array
+- 896 — Monotonic Array
+
+### Recursions
+- 779 — Kth Symbol in Grammar
+- 1823 — Find the Winner of a Circular Game
+
 ## Contributing
 
 If you want to collaborate, open an issue or submit a PR with:
@@ -86,4 +96,4 @@ Good luck on your DSA journey — consistency beats intensity. Keep solving!
 
 ## Last Updated
 
-- **Date:** 2026-01-11 — minor README edits and pushed recent changes.
+- **Date:** 2026-01-14 — Added current solutions and updated repository structure.
